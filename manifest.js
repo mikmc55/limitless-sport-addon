@@ -1,9 +1,9 @@
 module.exports={
     id: "org.community.homescreen",
     version: "1.0.1",
-    name: "Home Sceen IPTV",
+    name: "limitless IPTV sports addon",
     logo: "https://dl.strem.io/addon-logo.png",
-    description: "This addon brings all the Live Streams from your IPTV subscription to your Stremio Home screen using Xtream API.",
+    description: "This addon brings sports from limitless.",
     types: ["movie", "series","tv","channel"],
     background: "https://dl.strem.io/addon-background.jpg",
     resources: ["movie","series","tv"],
