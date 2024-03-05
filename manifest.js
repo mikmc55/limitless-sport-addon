@@ -1,7 +1,7 @@
 module.exports={
     id: "org.community.homescreen",
     version: "1.0.1",
-    name: "HY IPTV sports addon",
+    name: "HY USA sports addon",
     logo: "https://raw.githubusercontent.com/mikmc55/stremio-ptiptv/master/h_y-high-resolution-logo-transparent.png",
     description: "This addon brings sports from limitless.",
     types: ["movie", "series","tv","channel"],
