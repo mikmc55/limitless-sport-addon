@@ -84,7 +84,7 @@ async function getManifest(url) {
 	});
         }
 
-    const manifest = {"id":"org.community.hostcloud.network","version":"1.0.0","name":"hostcloud.network IPTV","description":"You will access to your hostcloud.network IPTV with this addon!","idPrefixes":["hdk:"],"resources":["catalog","meta","stream"],"types":["tv"],"behaviorHints":{"configurable":true,"configurationRequired":false},"catalogs":[{"id":"1","name":"Daily | Live Events","type":"tv"},
+    const manifest = {"id":"org.community.hyusa.network","version":"1.0.0","name":"hy.usa IPTV","description":"You will access to your USA SPORTS IPTV with this addon!","idPrefixes":["hdk:"],"resources":["catalog","meta","stream"],"types":["tv"],"behaviorHints":{"configurable":true,"configurationRequired":false},"catalogs":[{"id":"20","name":"Live Events","type":"tv"},
 {"id":"20","name":"Live Football | EFL Zone","type":"tv"},
 {"id":"21","name":"Live Football | EPL Zone","type":"tv"},
 {"id":"22","name":"Live Football | Euro Zone","type":"tv"},
