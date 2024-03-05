@@ -85,14 +85,14 @@ async function getManifest(url) {
         }
 
     const manifest = {"id":"org.community.hostcloud.network","version":"1.0.0","name":"hostcloud.network IPTV","description":"You will access to your hostcloud.network IPTV with this addon!","idPrefixes":["hdk:"],"resources":["catalog","meta","stream"],"types":["tv"],"behaviorHints":{"configurable":true,"configurationRequired":false},"catalogs":[{"id":"1","name":"Daily | Live Events","type":"tv"},
-{"id":"20","name":"Live Events","type":"tv"},
-{"id":"8","name":"USA & CA Sport","type":"tv"},
-{"id":"24","name":"NBA","type":"tv"},
-{"id":"23","name":"MLB","type":"tv"},
-{"id":"22","name":"NHL","type":"tv"},
-{"id":"12","name":"NFL","type":"tv"},
-{"id":"74","name":"UFC FightPass":"tv"},
-{"id":"125","name":"MLS Season Pass","type":"tv"},
+{"id":"20","name":"Live Football | EFL Zone","type":"tv"},
+{"id":"21","name":"Live Football | EPL Zone","type":"tv"},
+{"id":"22","name":"Live Football | Euro Zone","type":"tv"},
+{"id":"950","name":"Live Football | League Cup ","type":"tv"},
+{"id":"2734","name":"Amazon UK","type":"tv"},
+{"id":"6","name":"UK | Sky Sports","type":"tv"},
+{"id":"7","name":"UK | Sports","type":"tv"},
+{"id":"11","name":"UK | Club Football","type":"tv"},
 {"id":"8","name":"UK | Betting","type":"tv"}]}
 
     return manifest
