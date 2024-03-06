@@ -84,16 +84,35 @@ async function getManifest(url) {
 	});
         }
 
-    const manifest = {"id":"org.community.hyusa.network","version":"1.0.0","name":"hy.usa IPTV","description":"You will access to your USA SPORTS IPTV with this addon!","idPrefixes":["hdk:"],"resources":["catalog","meta","stream"],"types":["tv"],"behaviorHints":{"configurable":true,"configurationRequired":false},"catalogs":[{"id":"20","name":"Live Events","type":"tv"},
-{"id":"8","name":"USA & CA Sport","type":"tv"},
-{"id":"24","name":"NBA","type":"tv"},
-{"id":"23","name":"MLB","type":"tv"},
-{"id":"22","name":"NHL","type":"tv"},
-{"id":"12","name":"NFL","type":"tv"},
-{"id":"74","name":"UFC FightPass","type":"tv"},
-{"id":"125","name":"MLS Season Pass","type":"tv"}]}
-    return manifest
+    const manifest = {
+  "id": "org.community.hyusa.network",
+  "version": "1.0.0",
+  "name": "hy.usa IPTV",
+  "description": "You will access to your USA SPORTS IPTV with this addon!",
+  "idPrefixes": ["hdk:"],
+  "resources": ["catalog", "meta", "stream"],
+  "types": ["tv"],
+  "behaviorHints": {
+    "configurable": true,
+    "configurationRequired": false
+  },
+  "catalogs": [
+    {"id": "1", "name": "Daily | Live Events", "type": "tv"},
+    {"id": "26", "name": "Pay Per View", "type": "tv"},
+    {"id": "37", "name": "US | ESPN +", "type": "tv"},
+    {"id": "34", "name": "US | Local Sports", "type": "tv"},
+    {"id": "35", "name": "US/CA | Sports", "type": "tv"},
+    {"id": "63", "name": "US | NFL Games", "type": "tv"},
+    {"id": "62", "name": "US | NBA League Pass", "type": "tv"},
+    {"id": "60", "name": "US | MLB Extra Innings", "type": "tv"},
+    {"id": "64", "name": "US | NHL Center Ice", "type": "tv"},
+    {"id": "61", "name": "US | MLS", "type": "tv"},
+    {"id": "821", "name": "US | NCAAB", "type": "tv"},
+    {"id": "1333", "name": "AHL / ECHL/ OHL / WHL / QMJHL", "type": "tv"}
+  ]
+};
 
+return manifest;
 }
 
 function getValidUrl(url) {
